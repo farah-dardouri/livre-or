@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+body{
+    background-image:  url(image/fond.jpg);
+    background-size: cover;
+}
+.header{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    margin-top: 20px;
+     
+}
+nav a{
+    text-decoration: none;
+    color: #FF0000;
+    padding: 10px 20px;
+    text-transform:uppercase;
+    border: 1px solid #fff;
+    margin: 10px;
+    font-weight: 500;
+    transition: 00.6s ease;
+}
+nav a:hover{
+    background: #fff;
+    color: #00FF00;
+}
+nav.active a{
+    background-color: #fff;
+    color: #000;
+}
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+    margin-left: 15%;
+}
+h1{
+    color: black;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align: center;
+}
+.in{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 5%;
+    color: #9f6914;
+} 
+h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-style: oblique;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    color: #FF0000;
+}
+h3{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-style: oblique;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    color: #FF0000;
+}
+input{
+    border-style: solid;
+    border-radius: 3px;
+    background-color: black;
+    color: #fff;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin: 20px;
+    width: 350px;
+    height: 40px; 
+}
+.a{
+    position: absolute;
+    transform: translate(-50% -50%);
+    font-size: 20px;
+    position: absolute;
+    left: 25%;
+    top: 99%;
+}
